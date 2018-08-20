@@ -1,0 +1,6 @@
+# CLOG
+
+CLOG is a simple logging library for C programs. It is definitely not thread 
+safe. It was largely written as an excuse to get some practice with Autotools.
+It is also an attempt to finally package up and install a little utility that 
+I seem to keep rewriting in different ways.

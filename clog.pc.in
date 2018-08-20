@@ -1,0 +1,14 @@
+# clog pkg-config source file
+
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: clog
+Description: Minimalistic logging tool for C programs.
+Version: @CLOG_VERSION@
+Requires:
+Conflicts:
+Libs: -L${libdir} -lclog
+Cflags: -I${includedir}
